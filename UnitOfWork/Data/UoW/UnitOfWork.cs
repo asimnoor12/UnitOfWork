@@ -1,6 +1,6 @@
 ﻿using UnitOfWork.Repositories;
 
-namespace UnitOfWork.Data
+namespace UnitOfWork.Data.UoW
 {
     public class UnitOfWork : IUnitOfWork
     {

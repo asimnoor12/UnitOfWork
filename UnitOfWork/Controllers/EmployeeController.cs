@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using UnitOfWork.Data;
+using UnitOfWork.Data.UoW;
 using UnitOfWork.DTOs.Department;
 using UnitOfWork.DTOs.Employee;
 using UnitOfWork.Models;

@@ -1,6 +1,7 @@
 
 using Microsoft.EntityFrameworkCore;
 using UnitOfWork.Data;
+using UnitOfWork.Data.UoW;
 using UnitOfWork.Repositories;
 
 namespace UnitOfWork
@@ -21,7 +22,7 @@ namespace UnitOfWork
             builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
 
             // Register UnitOfWork
-            builder.Services.AddScoped<IUnitOfWork, Data.UnitOfWork>();
+            builder.Services.AddScoped<IUnitOfWork, Data.UoW.UnitOfWork>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

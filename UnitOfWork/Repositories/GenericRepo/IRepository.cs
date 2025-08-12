@@ -1,4 +1,4 @@
-﻿namespace UnitOfWork.Repositories
+﻿namespace UnitOfWork.Repositories.GenericRepo
 {
     public interface IRepository<T> where T : class
     {

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using UnitOfWork.Data;
 using UnitOfWork.Models;
+using UnitOfWork.Repositories.GenericRepo;
 
 namespace UnitOfWork.Repositories
 {
