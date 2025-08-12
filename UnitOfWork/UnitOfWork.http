@@ -1,6 +1,11 @@
 @UnitOfWork_HostAddress = http://localhost:5045
 
-GET {{UnitOfWork_HostAddress}}/weatherforecast/
+### Get All Employees
+GET {{UnitOfWork_HostAddress}}/api/Employee/GetAllEmployees
+Accept: application/json
+
+### Get Employee By Id
+GET {{UnitOfWork_HostAddress}}/api/Employee/GetEmployeeById/5
 Accept: application/json
 
 ###
